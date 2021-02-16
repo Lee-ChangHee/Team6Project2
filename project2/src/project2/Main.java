@@ -7,6 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		div div = new div();
+		plus plus = new plus();
 		Scanner sc = new Scanner(System.in);
 		System.out.printf("number 1 :");
 		int num1 =  sc.nextInt();
@@ -14,6 +15,7 @@ public class Main {
 		int num2 =  sc.nextInt();
 
 		div.diveNum(num1, num2);
+		plus.plus(num1, num2);
 		//
 
 	}
